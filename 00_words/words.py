@@ -16,7 +16,7 @@ def CheckMask(word, mask):
             return False
     return True
 
-with open("D:\\Programming\\ukrwords1.txt") as f:
+with open("ukrwords1.txt") as f:
     for line in f:
         word = line.strip()
         if len(word) == len(in_mask) and CheckCompatible(word,in_letter) and CheckMask(word,in_mask):
