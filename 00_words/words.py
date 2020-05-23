@@ -1,5 +1,5 @@
-in_letter = "кизиатр"
-in_mask = "**и"
+in_letter = "товаізх"
+in_mask = "***"
 
 def CheckCompatible(word, letterSet):
     for letter in word:
