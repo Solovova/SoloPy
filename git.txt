@@ -12,5 +12,3 @@ get status
 test 2222
 
 test on dev
-
-test added on master paralel
